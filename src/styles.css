@@ -82,6 +82,9 @@ section {
     padding-top: 70px;
 }
 
+.dictionary {
+    padding-left: 200px
+}
 
 .weather-link {
     display: flex;
@@ -105,3 +108,4 @@ section {
 footer {
     text-align: center;
 }
+
