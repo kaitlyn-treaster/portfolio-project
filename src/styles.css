@@ -131,9 +131,6 @@ h4 {
     padding-left: 100px
 }
 
-footer {
-    text-align: center;
-}
 
 .about-me {
     margin: 70px;
@@ -189,3 +186,49 @@ footer {
     color: var(--primary-color);
 }
 
+footer {
+    margin: 60px 170px;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+footer .email-link:hover {
+    color: var(--primary-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--primary-color);
+    background: #EDEEEF;
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: white;
+    background: var(--primary-color);
+}
+
+footer .contact-box {
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); 
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+.work-inquiry {
+    font-size: 40px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
+.btn-primary {
+    padding: 15px 20px;
+}
