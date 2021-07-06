@@ -160,3 +160,32 @@ footer {
     font-size: 35px;
 }
 
+.dictionary-image {
+    border-radius: 15px;
+}
+
+.portfolio-image {
+    border-radius: 15px;
+}
+
+
+
+.project-link {
+    display: flex;
+    margin-top: 40px;
+    justify-content: right;
+}
+
+.project-link a {
+    margin-left: 30px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+
+.go-link {
+    border: 1px solid var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: var(--primary-color);
+}
+
