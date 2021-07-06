@@ -187,7 +187,7 @@ h4 {
 }
 
 footer {
-    margin: 60px 170px;
+    margin: 60px 390px;
 }
 
 footer .email-link {
@@ -217,7 +217,7 @@ footer .social-links a:hover {
 
 footer .contact-box {
     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); 
-    padding: 30px 120px;
+    padding: 30px 50px;
     border-radius: 10px;
 }
 
@@ -230,5 +230,5 @@ footer .contact-box p {
 }
 
 .btn-primary {
-    padding: 15px 20px;
+    padding: 20px;
 }
