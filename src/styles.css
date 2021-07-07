@@ -73,6 +73,12 @@ h3 {
     color: white;
 }
 
+
+ 
+/* This section is for dictionary application on homepage*/
+.project-description {
+    padding: 20px;
+}
 .work-link {
     display: flex;
     margin-top: 40px;
@@ -93,15 +99,14 @@ h3 {
     color: var(--primary-color);
 }
 
-.dictionary-description {
-    padding-top: 70px;
+
+
+
+/* This section is for weather application on homepage */
+
+.weather-description {
     font-family: 'Poppins', sans-serif;
 }
-
-.dictionary {
-    padding-left: 200px
-}
-
 .weather-link {
     display: flex;
     margin-top: 40px;
@@ -109,32 +114,28 @@ h3 {
 }
 
 .weather-link a {
-    margin-left: 250px;
     border-radius: 4px;
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
 }
 
-.weather-description {
-    margin-left: 200px;
-    padding-top: 70px;
-    font-family: 'Poppins', sans-serif;
-}
 
-.homepage-description {
-    padding-top: 70px;
-    font-family: 'Poppins', sans-serif;
-}
 
+
+/* This section is for homepage on homepage */
 .homepage {
     padding-left: 100px
 }
-
-
-.about-me {
-    margin: 70px;
+.homepage-description {
+    font-family: 'Poppins', sans-serif;
 }
+
+
+
+/* about page */
+
+
 
 .about-me-description {
     font-family: 'Poppins', sans-serif;
@@ -146,7 +147,6 @@ h3 {
 
 .picture-me {
     border-radius: 900%;
-    padding-left: 40px;
 }
 
 .about-me-description h1 {
@@ -156,6 +156,10 @@ h3 {
 .about-me-description h2 {
     font-size: 35px;
 }
+
+
+
+/* work page */
 
 .dictionary-image {
     border-radius: 15px;
@@ -186,9 +190,11 @@ h3 {
     color: var(--primary-color);
 }
 
-footer {
-    margin: 60px 390px;
-}
+
+
+
+
+
 
 footer .email-link {
     text-decoration: none;
